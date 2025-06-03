@@ -4,3 +4,4 @@ transformers==4.51.3
 numpy<2
 langchain-postgres==0.0.14
 psycopg-binary==3.2.9
+langchain-experimental
