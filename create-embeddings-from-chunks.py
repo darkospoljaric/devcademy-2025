@@ -64,8 +64,6 @@ def create_semantic_clusters(string: str) -> list:
 with open('ragqa_arena_tech_corpus_reduced.jsonl', 'r') as json_file:
   json_list = list(json_file)
 
-batch_size = 100
-
 for text in json_list:
   data = json.loads(text)
   text = data["text"]
