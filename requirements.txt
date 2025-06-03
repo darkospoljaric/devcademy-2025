@@ -1,0 +1,6 @@
+langchain==0.3.25
+langchain_huggingface==0.2.0
+transformers==4.51.3
+numpy<2
+langchain-postgres==0.0.14
+psycopg-binary==3.2.9
